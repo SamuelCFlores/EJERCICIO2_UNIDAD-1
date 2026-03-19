@@ -182,4 +182,4 @@ class Inventario:
 
     def notificarFaltante(self, nombre):
         if self.ingredientes.get(nombre, 0) <= 2:
-            print(f"⚠ Falta inventario de {nombre}")
+            print(f"Falta inventario de {nombre}")
